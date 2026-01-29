@@ -1,0 +1,468 @@
+/*
+Theme Name: Planner Fluxo
+Theme URI: https://plannerfluxo.com.br
+Author: Planner Fluxo
+Author URI: https://plannerfluxo.com.br
+Description: Tema elegante para loja de planners digitais com integração WooCommerce e Elementor. Design em rosa e ouro para público feminino.
+Version: 1.0.0
+Requires at least: 5.8
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: planner-fluxo
+Tags: e-commerce, blog, two-columns, custom-colors, custom-menu, featured-images, threaded-comments, translation-ready
+
+Planner Fluxo WordPress Theme, Copyright 2026
+Planner Fluxo is distributed under the terms of the GNU GPL.
+*/
+
+/* ==========================================================================
+   Reset & Base Styles
+   ========================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-rosa-principal: #E89BB9;
+    --color-ouro: #F5A962;
+    --color-roxo-escuro: #2C1840;
+    --color-rosa-claro: #FFF5F8;
+    --color-branco: #FFFFFF;
+    --color-whatsapp-verde: #075E54;
+    --color-whatsapp-balao: #DCF8C6;
+    --color-whatsapp-fundo: #E5DDD5;
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-roxo-escuro);
+    background: var(--color-branco);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-roxo-escuro);
+    margin-bottom: 1rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+/* Links */
+a {
+    color: var(--color-rosa-principal);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-ouro);
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background: var(--color-rosa-principal);
+    color: var(--color-branco);
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn:hover {
+    background: var(--color-ouro);
+    color: var(--color-branco);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(232, 155, 185, 0.3);
+}
+
+.btn-secondary {
+    background: var(--color-ouro);
+}
+
+.btn-secondary:hover {
+    background: var(--color-rosa-principal);
+}
+
+/* ==========================================================================
+   Header Styles
+   ========================================================================== */
+
+.site-header {
+    background: var(--color-branco);
+    border-bottom: 2px solid var(--color-rosa-principal);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.site-logo img {
+    height: 150px;
+    width: auto;
+}
+
+/* Navigation */
+.main-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation a {
+    color: var(--color-roxo-escuro);
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+}
+
+.main-navigation a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--color-ouro);
+    transition: width 0.3s ease;
+}
+
+.main-navigation a:hover::after {
+    width: 100%;
+}
+
+/* Mobile Menu Toggle */
+.menu-toggle {
+    display: none;
+    background: var(--color-rosa-principal);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px 0;
+    border-radius: 2px;
+}
+
+/* ==========================================================================
+   Footer Styles
+   ========================================================================== */
+
+.site-footer {
+    background: var(--color-rosa-principal);
+    color: var(--color-branco);
+    padding: 60px 0 0;
+}
+
+.footer-widgets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px 60px;
+}
+
+.footer-widget h3 {
+    color: var(--color-branco);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 160px;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.footer-widget p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 0;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 12px;
+}
+
+.footer-menu a {
+    color: var(--color-branco);
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.footer-menu a:hover {
+    color: var(--color-ouro);
+    padding-left: 5px;
+}
+
+/* Footer Social */
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.footer-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--color-branco);
+    border-radius: 50%;
+    color: var(--color-rosa-principal);
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+    background: var(--color-ouro);
+    color: var(--color-branco);
+    transform: translateY(-3px);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background: var(--color-roxo-escuro);
+    padding: 25px 40px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-branco);
+}
+
+/* ==========================================================================
+   Content Styles
+   ========================================================================== */
+
+.site-content {
+    min-height: 60vh;
+    padding: 40px 0;
+}
+
+.content-area {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ==========================================================================
+   WooCommerce Styles
+   ========================================================================== */
+
+.woocommerce .products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.woocommerce .product {
+    background: var(--color-branco);
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.woocommerce .product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(232, 155, 185, 0.2);
+}
+
+.woocommerce .button {
+    background: var(--color-rosa-principal);
+    color: var(--color-branco);
+    border-radius: 50px;
+    padding: 12px 30px;
+}
+
+.woocommerce .button:hover {
+    background: var(--color-ouro);
+}
+
+/* ==========================================================================
+   Responsive Styles
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    .site-logo img {
+        height: 100px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .main-navigation ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 20px;
+        background: var(--color-branco);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+        min-width: 200px;
+    }
+
+    .main-navigation ul.active {
+        display: flex;
+    }
+
+    .footer-widgets {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-logo img {
+        height: 120px;
+    }
+
+    .woocommerce .products {
+        grid-template-columns: 1fr;
+    }
+
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.5rem; }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .woocommerce .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-widgets {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ==========================================================================
+   Utility Classes
+   ========================================================================== */
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.mt-0 { margin-top: 0; }
+.mb-0 { margin-bottom: 0; }
+.pt-0 { padding-top: 0; }
+.pb-0 { padding-bottom: 0; }
+
+.bg-rosa-claro { background-color: var(--color-rosa-claro); }
+.bg-branco { background-color: var(--color-branco); }
+
+/* ==========================================================================
+   WordPress Core Styles
+   ========================================================================== */
+
+.alignleft {
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.alignright {
+    float: right;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption-text {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* ==========================================================================
+   Elementor Compatibility
+   ========================================================================== */
+
+.elementor-section {
+    position: relative;
+}
+
+.elementor-widget-container {
+    word-wrap: break-word;
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}

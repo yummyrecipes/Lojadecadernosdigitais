@@ -1,0 +1,307 @@
+{
+  "version": "0.4",
+  "title": "Planner Fluxo - Blog",
+  "type": "page",
+  "content": [
+    {
+      "id": "blog-hero",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "hero-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-book-open",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#E89BB9",
+                "size": {
+                  "unit": "px",
+                  "size": 64
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "hero-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Blog Planner Fluxo 📝",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "hero-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Dicas de organização, produtividade e planejamento para transformar sua rotina",
+                "align": "center",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "categorias-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "20",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "categorias-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "categorias-pills",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<style>\n.blog-categories {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 12px;\n  justify-content: center;\n  margin: 20px 0;\n}\n.blog-cat-pill {\n  padding: 10px 24px;\n  border: 2px solid #E89BB9;\n  border-radius: 50px;\n  background: white;\n  color: #2C1840;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.3s ease;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 14px;\n}\n.blog-cat-pill:hover,\n.blog-cat-pill.active {\n  background: #E89BB9;\n  color: white;\n  transform: translateY(-2px);\n  box-shadow: 0 4px 12px rgba(232, 155, 185, 0.3);\n}\n</style>\n\n<div class=\"blog-categories\">\n  <a href=\"?cat=todos\" class=\"blog-cat-pill active\">Todos os Posts</a>\n  <a href=\"?cat=produtividade\" class=\"blog-cat-pill\">Produtividade</a>\n  <a href=\"?cat=organizacao\" class=\"blog-cat-pill\">Organização</a>\n  <a href=\"?cat=planejamento\" class=\"blog-cat-pill\">Planejamento</a>\n  <a href=\"?cat=dicas\" class=\"blog-cat-pill\">Dicas</a>\n  <a href=\"?cat=tutoriais\" class=\"blog-cat-pill\">Tutoriais</a>\n  <a href=\"?cat=lifestyle\" class=\"blog-cat-pill\">Lifestyle</a>\n</div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "posts-destaque",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "posts-header",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "posts-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Posts em Destaque",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "posts-grid",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "posts-widget",
+              "elType": "widget",
+              "widgetType": "posts",
+              "settings": {
+                "posts_per_page": 6,
+                "columns": 3,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "show_image": "yes",
+                "image_size": "medium",
+                "show_title": "yes",
+                "show_excerpt": "yes",
+                "excerpt_length": 20,
+                "show_read_more": "yes",
+                "read_more_text": "Ler mais",
+                "show_date": "yes",
+                "show_author": "yes",
+                "pagination_type": "numbers"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "newsletter-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#E89BB9",
+        "background_color_b": "#F5A962",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "newsletter-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "newsletter-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-envelope",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#FFFFFF",
+                "size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "newsletter-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Assine Nossa Newsletter 💌",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "newsletter-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Receba dicas exclusivas de organização e produtividade direto no seu e-mail",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                }
+              }
+            },
+            {
+              "id": "newsletter-form",
+              "elType": "widget",
+              "widgetType": "form",
+              "settings": {
+                "form_name": "Newsletter Blog",
+                "form_fields": [
+                  {
+                    "field_type": "text",
+                    "field_label": "",
+                    "placeholder": "Seu nome",
+                    "required": "true",
+                    "width": "50"
+                  },
+                  {
+                    "field_type": "email",
+                    "field_label": "",
+                    "placeholder": "Seu melhor e-mail",
+                    "required": "true",
+                    "width": "50"
+                  }
+                ],
+                "button_text": "Quero Receber!",
+                "button_size": "md",
+                "button_align": "center",
+                "button_width": "100",
+                "success_message": "🎉 Parabéns! Você está inscrita na nossa newsletter!",
+                "button_background_color": "#FFFFFF",
+                "button_text_color": "#E89BB9",
+                "button_hover_background_color": "#2C1840",
+                "button_hover_color": "#FFFFFF",
+                "field_background_color": "#FFFFFF",
+                "field_text_color": "#2C1840",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

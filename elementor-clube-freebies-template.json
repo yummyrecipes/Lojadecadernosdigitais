@@ -1,0 +1,726 @@
+{
+  "version": "0.4",
+  "title": "Planner Fluxo - Clube de Freebies",
+  "type": "page",
+  "content": [
+    {
+      "id": "clube-hero",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#E89BB9",
+        "background_color_b": "#F5A962",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "hero-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-gift",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#FFFFFF",
+                "size": {
+                  "unit": "px",
+                  "size": 72
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "hero-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Clube de Freebies 🎁",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "hero-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Receba planners, templates e recursos GRATUITOS toda semana!",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beneficios-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "beneficios-header",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "beneficios-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "O que você ganha ao se cadastrar?",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "beneficio-1",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "beneficio-1-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-calendar-check",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#E89BB9",
+                "size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "beneficio-1-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Planners Gratuitos",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "beneficio-1-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Receba versões simplificadas dos nossos planners mais populares para testar antes de comprar!",
+                "align": "center",
+                "text_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "beneficio-2",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "beneficio-2-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-sparkles",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#F5A962",
+                "size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "beneficio-2-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Templates Exclusivos",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "beneficio-2-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Adesivos digitais, capas, fundos e muito mais para personalizar seus planners!",
+                "align": "center",
+                "text_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "beneficio-3",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "beneficio-3-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-percent",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#E89BB9",
+                "size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "beneficio-3-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Cupons Exclusivos",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "beneficio-3-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Descontos especiais e acesso antecipado aos lançamentos antes de todo mundo!",
+                "align": "center",
+                "text_color": "#2C1840"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cadastro-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "cadastro-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "cadastro-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Cadastre-se Grátis Agora! ✨",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "cadastro-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Preencha seus dados e receba imediatamente seu primeiro presente!",
+                "align": "center",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                }
+              }
+            },
+            {
+              "id": "cadastro-form",
+              "elType": "widget",
+              "widgetType": "form",
+              "settings": {
+                "form_name": "Clube de Freebies",
+                "form_fields": [
+                  {
+                    "field_type": "text",
+                    "field_label": "Seu Nome",
+                    "placeholder": "Digite seu nome",
+                    "required": "true",
+                    "width": "50"
+                  },
+                  {
+                    "field_type": "email",
+                    "field_label": "Seu Melhor E-mail",
+                    "placeholder": "seu@email.com",
+                    "required": "true",
+                    "width": "50"
+                  },
+                  {
+                    "field_type": "acceptance",
+                    "field_label": "Aceito receber e-mails com freebies e novidades",
+                    "required": "true",
+                    "width": "100"
+                  }
+                ],
+                "button_text": "Quero Meus Freebies! 🎁",
+                "button_size": "lg",
+                "button_align": "center",
+                "success_message": "🎉 Bem-vinda ao Clube! Verifique seu e-mail para receber seu primeiro presente!",
+                "error_message": "Ops! Algo deu errado. Tente novamente.",
+                "email_to": "clube@plannerfluxo.com.br",
+                "email_subject": "Novo membro do Clube de Freebies",
+                "button_background_color": "#E89BB9",
+                "button_text_color": "#FFFFFF",
+                "button_hover_background_color": "#F5A962",
+                "field_border_color": "#E89BB9",
+                "field_focus_border_color": "#F5A962",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freebies-disponiveis",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "freebies-header",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "freebies-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Freebies Disponíveis Agora 🎁",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "freebie-1",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "freebie-1-image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600"
+                },
+                "image_size": "large",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                }
+              }
+            },
+            {
+              "id": "freebie-1-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Planner Semanal Básico",
+                "header_size": "h4",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "freebie-1-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Organize sua semana com estilo. Compatível com GoodNotes e Notability.",
+                "text_color": "#2C1840"
+              }
+            },
+            {
+              "id": "freebie-1-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Baixar Grátis",
+                "link": {
+                  "url": "#cadastro"
+                },
+                "background_color": "#E89BB9",
+                "button_text_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                },
+                "hover_background_color": "#F5A962"
+              }
+            }
+          ]
+        },
+        {
+          "id": "freebie-2",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "freebie-2-image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=600"
+                },
+                "image_size": "large",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                }
+              }
+            },
+            {
+              "id": "freebie-2-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Pack de Adesivos Digitais",
+                "header_size": "h4",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "freebie-2-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "50+ adesivos lindos para decorar e personalizar seus planners digitais.",
+                "text_color": "#2C1840"
+              }
+            },
+            {
+              "id": "freebie-2-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Baixar Grátis",
+                "link": {
+                  "url": "#cadastro"
+                },
+                "background_color": "#F5A962",
+                "button_text_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                },
+                "hover_background_color": "#E89BB9"
+              }
+            }
+          ]
+        },
+        {
+          "id": "freebie-3",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "freebie-3-image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1554224311-4af2d7a6d3fc?w=600"
+                },
+                "image_size": "large",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                }
+              }
+            },
+            {
+              "id": "freebie-3-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Guia de Produtividade",
+                "header_size": "h4",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "freebie-3-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "E-book completo com técnicas e dicas para maximizar sua produtividade.",
+                "text_color": "#2C1840"
+              }
+            },
+            {
+              "id": "freebie-3-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Baixar Grátis",
+                "link": {
+                  "url": "#cadastro"
+                },
+                "background_color": "#E89BB9",
+                "button_text_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                },
+                "hover_background_color": "#F5A962"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq-clube",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "faq-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "faq-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Dúvidas sobre o Clube",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "faq-accordion",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "É realmente grátis?",
+                    "tab_content": "Sim! O cadastro no Clube de Freebies é 100% gratuito e sem compromisso. Você pode cancelar a qualquer momento."
+                  },
+                  {
+                    "tab_title": "Com que frequência recebo novos freebies?",
+                    "tab_content": "Enviamos novos freebies toda semana! Além disso, você recebe cupons exclusivos e acesso antecipado aos lançamentos."
+                  },
+                  {
+                    "tab_title": "Preciso comprar algo para ter acesso?",
+                    "tab_content": "Não! Os freebies são completamente gratuitos. Não é necessário nenhuma compra para acessá-los."
+                  },
+                  {
+                    "tab_title": "Posso usar os freebies comercialmente?",
+                    "tab_content": "Os freebies são para uso pessoal. Para uso comercial, consulte nossa loja de produtos comerciais."
+                  }
+                ],
+                "title_color": "#2C1840",
+                "tab_active_color": "#E89BB9",
+                "icon_color": "#E89BB9",
+                "content_color": "#2C1840",
+                "border_color": "#E89BB9"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

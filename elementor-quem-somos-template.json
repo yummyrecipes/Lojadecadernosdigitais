@@ -1,0 +1,691 @@
+{
+  "version": "0.4",
+  "title": "Planner Fluxo - Quem Somos",
+  "type": "page",
+  "content": [
+    {
+      "id": "quem-somos-hero",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "hero-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-heart",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#E89BB9",
+                "size": {
+                  "unit": "px",
+                  "size": 64
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "hero-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nossa História",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "hero-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Como nasceu o Planner Fluxo e nossa missão de transformar a organização feminina",
+                "align": "center",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fundadora-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "fundadora-image-column",
+          "elType": "column",
+          "settings": {
+            "width": "40"
+          },
+          "elements": [
+            {
+              "id": "fundadora-image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600"
+                },
+                "image_size": "large",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 10,
+                  "blur": 30,
+                  "spread": 0,
+                  "color": "rgba(232, 155, 185, 0.3)"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "fundadora-content-column",
+          "elType": "column",
+          "settings": {
+            "width": "60"
+          },
+          "elements": [
+            {
+              "id": "fundadora-name",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Conheça a Fundadora",
+                "header_size": "h2",
+                "title_color": "#E89BB9",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "600",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2
+                }
+              }
+            },
+            {
+              "id": "fundadora-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Maria Carolina Silva",
+                "header_size": "h2",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "fundadora-story",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Há 5 anos, eu estava completamente perdida. Minha rotina era um caos: trabalho, família, sonhos pessoais... tudo se misturava e nada saía do papel.</p>\n\n<p>Foi quando descobri os planners digitais. Mas nenhum deles era do jeito que eu precisava: bonito, funcional e feito para a realidade da mulher brasileira.</p>\n\n<p>Então eu mesma criei o meu. E funcionou! Minha vida mudou completamente. Consegui organizar minha rotina, alcançar metas que parecia impossíveis e ainda sobrava tempo para mim.</p>\n\n<p>Foi aí que nasceu o <strong>Planner Fluxo</strong>. Decidi compartilhar essa transformação com outras mulheres que, como eu, buscavam organização com elegância e praticidade.</p>\n\n<p>Hoje, são mais de <strong>15.000 mulheres</strong> que já transformaram suas rotinas com nossos planners. E esse é só o começo! ✨</p>",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                }
+              }
+            },
+            {
+              "id": "fundadora-assinatura",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "URL_DA_ASSINATURA_AQUI"
+                },
+                "image_size": "medium",
+                "width": {
+                  "unit": "%",
+                  "size": 40
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "missao-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "missao-column-1",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "missao-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-bullseye",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#E89BB9",
+                "size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "missao-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nossa Missão",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "missao-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Transformar a vida de mulheres através da organização digital, oferecendo planners elegantes e funcionais que realmente fazem a diferença.",
+                "align": "center",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "visao-column",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "visao-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-eye",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#F5A962",
+                "size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "visao-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nossa Visão",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "visao-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Ser referência em planners digitais no Brasil, ajudando milhões de mulheres a conquistarem seus sonhos através da organização.",
+                "align": "center",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "valores-column",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "valores-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-star",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#E89BB9",
+                "size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "valores-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nossos Valores",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "valores-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Elegância, funcionalidade, empoderamento feminino e compromisso com a qualidade em cada detalhe dos nossos produtos.",
+                "align": "center",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numeros-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#E89BB9",
+        "background_color_b": "#F5A962",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "numero-1",
+          "elType": "column",
+          "settings": {
+            "width": "25"
+          },
+          "elements": [
+            {
+              "id": "numero-1-value",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "15.000+",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "numero-1-label",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Clientes Satisfeitas",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "numero-2",
+          "elType": "column",
+          "settings": {
+            "width": "25"
+          },
+          "elements": [
+            {
+              "id": "numero-2-value",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "50+",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "numero-2-label",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Planners Criados",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "numero-3",
+          "elType": "column",
+          "settings": {
+            "width": "25"
+          },
+          "elements": [
+            {
+              "id": "numero-3-value",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "4.9/5",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "numero-3-label",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Avaliação Média",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "numero-4",
+          "elType": "column",
+          "settings": {
+            "width": "25"
+          },
+          "elements": [
+            {
+              "id": "numero-4-value",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "5 Anos",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "numero-4-label",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "No Mercado",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "cta-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "cta-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Faça Parte da Nossa História! ✨",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "cta-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Transforme sua rotina com nossos planners digitais",
+                "align": "center",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                }
+              }
+            },
+            {
+              "id": "cta-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Conhecer os Planners",
+                "link": {
+                  "url": "/loja"
+                },
+                "align": "center",
+                "button_type": "default",
+                "background_color": "#E89BB9",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "700",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "50",
+                  "bottom": "20",
+                  "left": "50"
+                },
+                "hover_background_color": "#F5A962",
+                "hover_animation": "grow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

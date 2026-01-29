@@ -1,0 +1,19 @@
+{
+  "template": "planner-fluxo",
+  "mods": {
+    "nav_menu_locations": {
+      "primary": 2
+    },
+    "custom_logo": 0,
+    "blogname": "Planner Fluxo",
+    "blogdescription": "Planners Digitais Elegantes",
+    "show_on_front": "page",
+    "page_on_front": 2,
+    "page_for_posts": 5
+  },
+  "options": {
+    "show_on_front": "page",
+    "page_on_front": 2,
+    "page_for_posts": 5
+  }
+}

@@ -1,0 +1,817 @@
+{
+  "version": "0.4",
+  "title": "Planner Fluxo - Homepage",
+  "type": "page",
+  "content": [
+    {
+      "id": "promo-bar",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2C1840",
+        "padding": {
+          "unit": "px",
+          "top": "12",
+          "right": "20",
+          "bottom": "12",
+          "left": "20"
+        },
+        "gap": "no"
+      },
+      "elements": [
+        {
+          "id": "promo-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "promo-text",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "🎉 OFERTA ESPECIAL: 40% OFF em todos os planners digitais! Use o cupom: FLUXO40",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_font_weight": "600"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "header-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "2",
+          "left": "0"
+        },
+        "border_color": "#E89BB9",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "20",
+          "bottom": "20",
+          "left": "20"
+        },
+        "position": "fixed",
+        "z_index": "999"
+      },
+      "elements": [
+        {
+          "id": "header-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "logo",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "URL_DA_SUA_LOGO_AQUI"
+                },
+                "image_size": "custom",
+                "image_custom_dimension": {
+                  "width": "150",
+                  "height": "auto"
+                },
+                "align": "left",
+                "link": {
+                  "url": "/"
+                }
+              }
+            },
+            {
+              "id": "menu",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "layout": "horizontal",
+                "pointer": "underline",
+                "menu_text_color": "#2C1840",
+                "menu_hover_color": "#F5A962"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "hero-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Transforme sua rotina com planners digitais que realmente funcionam ✨",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "hero-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Planners digitais elegantes e funcionais para mulheres que querem organização com estilo. Use no iPad, tablet ou celular!",
+                "align": "center",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                }
+              }
+            },
+            {
+              "id": "hero-cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Explorar Planners",
+                "link": {
+                  "url": "/loja"
+                },
+                "align": "center",
+                "button_type": "default",
+                "background_color": "#E89BB9",
+                "button_text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "700",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "50",
+                  "bottom": "20",
+                  "left": "50"
+                },
+                "hover_background_color": "#F5A962",
+                "hover_animation": "grow"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "como-funciona-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        },
+        "html_tag": "section",
+        "custom_attributes": "id|como-funciona"
+      },
+      "elements": [
+        {
+          "id": "como-funciona-header",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "como-funciona-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Como Funciona",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "como-funciona-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "É simples, rápido e totalmente digital",
+                "align": "center",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "step-1-column",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "step-1-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-shopping-cart",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#E89BB9",
+                "size": {
+                  "unit": "px",
+                  "size": 64
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "step-1-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "1. Escolha seu Planner",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "step-1-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Navegue pela nossa coleção e escolha o planner perfeito para suas necessidades",
+                "align": "center",
+                "text_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "step-2-column",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "step-2-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-download",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#F5A962",
+                "size": {
+                  "unit": "px",
+                  "size": 64
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "step-2-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "2. Baixe Instantaneamente",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "step-2-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Após a compra, receba o link de download imediatamente no seu e-mail",
+                "align": "center",
+                "text_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "step-3-column",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "step-3-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-tablet-alt",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#E89BB9",
+                "size": {
+                  "unit": "px",
+                  "size": 64
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "step-3-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "3. Use e Personalize",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "step-3-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Abra no seu app favorito (GoodNotes, Notability, etc) e comece a organizar sua vida!",
+                "align": "center",
+                "text_color": "#2C1840"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "produtos-destaque-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "produtos-header-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "produtos-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Planners em Destaque",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "produtos-grid-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "woocommerce-products",
+              "elType": "widget",
+              "widgetType": "woocommerce-products",
+              "settings": {
+                "rows": 1,
+                "columns": 4,
+                "paginate": "no",
+                "allow_order": "no",
+                "query_post_type": "product",
+                "query_posts_per_page": 4,
+                "query_orderby": "popularity"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "relatos-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        },
+        "html_tag": "section",
+        "custom_attributes": "id|relatos"
+      },
+      "elements": [
+        {
+          "id": "relatos-header-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "relatos-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Relatos de quem já transformou a rotina 💬",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "relatos-whatsapp-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "relatos-html",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<style>\n.whatsapp-card {\n  background: white;\n  border-radius: 24px;\n  overflow: hidden;\n  box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n  border: 2px solid #E5DDD5;\n  margin-bottom: 30px;\n}\n.whatsapp-header {\n  background: #075E54;\n  padding: 16px 24px;\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.whatsapp-avatar {\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  border: 2px solid white;\n  object-fit: cover;\n}\n.whatsapp-name {\n  color: white;\n  font-weight: 700;\n  font-size: 16px;\n  margin: 0;\n}\n.whatsapp-status {\n  color: rgba(255,255,255,0.8);\n  font-size: 12px;\n  margin: 0;\n}\n.whatsapp-messages {\n  background: #E5DDD5;\n  padding: 24px;\n  min-height: 280px;\n}\n.whatsapp-bubble {\n  background: #DCF8C6;\n  padding: 12px 16px;\n  border-radius: 16px;\n  border-top-right-radius: 4px;\n  margin-bottom: 12px;\n  max-width: 85%;\n  margin-left: auto;\n  box-shadow: 0 2px 4px rgba(0,0,0,0.1);\n}\n.whatsapp-text {\n  color: #303030;\n  font-size: 14px;\n  line-height: 1.6;\n  margin: 0;\n}\n.whatsapp-time {\n  color: #667781;\n  font-size: 11px;\n  text-align: right;\n  margin-top: 4px;\n}\n.whatsapp-role {\n  background: white;\n  padding: 12px 24px;\n  border-top: 2px solid #E5DDD5;\n  text-align: center;\n  color: #E89BB9;\n  font-weight: 600;\n  font-size: 14px;\n}\n.relatos-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n  gap: 30px;\n  max-width: 1200px;\n  margin: 0 auto;\n}\n</style>\n\n<div class=\"relatos-grid\">\n  <div class=\"whatsapp-card\">\n    <div class=\"whatsapp-header\">\n      <img class=\"whatsapp-avatar\" src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100\" alt=\"Mariana\">\n      <div>\n        <p class=\"whatsapp-name\">Mariana Silva</p>\n        <p class=\"whatsapp-status\">online</p>\n      </div>\n    </div>\n    <div class=\"whatsapp-messages\">\n      <div class=\"whatsapp-bubble\">\n        <p class=\"whatsapp-text\">Melhor planner digital que já usei! 😍</p>\n        <p class=\"whatsapp-time\">14:32</p>\n      </div>\n      <div class=\"whatsapp-bubble\">\n        <p class=\"whatsapp-text\">Mudou completamente minha organização. Consigo acompanhar metas de forma visual 📱✨</p>\n        <p class=\"whatsapp-time\">14:32</p>\n      </div>\n      <div class=\"whatsapp-bubble\">\n        <p class=\"whatsapp-text\">Recomendo muito! 💕</p>\n        <p class=\"whatsapp-time\">14:33</p>\n      </div>\n    </div>\n    <div class=\"whatsapp-role\">Empresária</div>\n  </div>\n\n  <div class=\"whatsapp-card\">\n    <div class=\"whatsapp-header\">\n      <img class=\"whatsapp-avatar\" src=\"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100\" alt=\"Ana\">\n      <div>\n        <p class=\"whatsapp-name\">Ana Carolina</p>\n        <p class=\"whatsapp-status\">online</p>\n      </div>\n    </div>\n    <div class=\"whatsapp-messages\">\n      <div class=\"whatsapp-bubble\">\n        <p class=\"whatsapp-text\">As páginas são lindas e super funcionais! 🎉</p>\n        <p class=\"whatsapp-time\">16:45</p>\n      </div>\n      <div class=\"whatsapp-bubble\">\n        <p class=\"whatsapp-text\">O design é impecável. Uso todos os dias no iPad! 📱</p>\n        <p class=\"whatsapp-time\">16:45</p>\n      </div>\n      <div class=\"whatsapp-bubble\">\n        <p class=\"whatsapp-text\">Vale MUITO a pena! ❤️</p>\n        <p class=\"whatsapp-time\">16:46</p>\n      </div>\n    </div>\n    <div class=\"whatsapp-role\">Estudante de Medicina</div>\n  </div>\n\n  <div class=\"whatsapp-card\">\n    <div class=\"whatsapp-header\">\n      <img class=\"whatsapp-avatar\" src=\"https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100\" alt=\"Juliana\">\n      <div>\n        <p class=\"whatsapp-name\">Juliana Mendes</p>\n        <p class=\"whatsapp-status\">online</p>\n      </div>\n    </div>\n    <div class=\"whatsapp-messages\">\n      <div class=\"whatsapp-bubble\">\n        <p class=\"whatsapp-text\">Esse planner é PERFEITO! 😱</p>\n        <p class=\"whatsapp-time\">10:15</p>\n      </div>\n      <div class=\"whatsapp-bubble\">\n        <p class=\"whatsapp-text\">Estou conseguindo alcançar minhas metas! 🎯</p>\n        <p class=\"whatsapp-time\">10:15</p>\n      </div>\n      <div class=\"whatsapp-bubble\">\n        <p class=\"whatsapp-text\">Nunca fui tão produtiva! 💪✨</p>\n        <p class=\"whatsapp-time\">10:16</p>\n      </div>\n    </div>\n    <div class=\"whatsapp-role\">Designer Gráfica</div>\n  </div>\n</div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "garantia-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "garantia-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "garantia-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-shield-alt",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#F5A962",
+                "size": {
+                  "unit": "px",
+                  "size": 80
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "garantia-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Garantia de 7 Dias",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "garantia-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Se você não amar seu planner digital, devolvemos 100% do seu dinheiro. Sem perguntas, sem complicação.",
+                "align": "center",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        },
+        "html_tag": "section",
+        "custom_attributes": "id|duvidas"
+      },
+      "elements": [
+        {
+          "id": "faq-header-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "faq-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Dúvidas Frequentes",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "faq-content-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "faq-accordion",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "Os planners funcionam em qual dispositivo?",
+                    "tab_content": "Nossos planners digitais funcionam em qualquer tablet ou smartphone! São compatíveis com iPad (GoodNotes, Notability, Noteshelf), Samsung Galaxy Tab, tablets Android e até mesmo no computador. Você pode usar em apps como GoodNotes, Notability, Noteshelf, Xodo, Adobe Reader e muitos outros."
+                  },
+                  {
+                    "tab_title": "Como recebo o planner após a compra?",
+                    "tab_content": "Imediatamente após a confirmação do pagamento, você recebe um e-mail com o link para download. O arquivo é enviado em formato PDF interativo, pronto para usar. O acesso é vitalício e você pode baixar quantas vezes quiser!"
+                  },
+                  {
+                    "tab_title": "Posso imprimir o planner?",
+                    "tab_content": "Sim! Embora nossos planners sejam otimizados para uso digital, você pode imprimir as páginas se preferir. O formato A5 é perfeito para impressão."
+                  },
+                  {
+                    "tab_title": "Posso parcelar a compra?",
+                    "tab_content": "Sim! Aceitamos pagamento parcelado em até 4x sem juros no cartão de crédito. Também aceitamos PIX com desconto especial."
+                  },
+                  {
+                    "tab_title": "E se eu não gostar do planner?",
+                    "tab_content": "Oferecemos garantia incondicional de 7 dias. Se por qualquer motivo você não ficar satisfeita, devolvemos 100% do seu investimento, sem perguntas."
+                  }
+                ],
+                "title_color": "#2C1840",
+                "tab_active_color": "#E89BB9",
+                "icon_color": "#E89BB9",
+                "content_color": "#2C1840",
+                "border_color": "#E89BB9"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta-final-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#E89BB9",
+        "background_color_b": "#F5A962",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "cta-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "cta-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Pronta para Transformar sua Rotina?",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "cta-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Junte-se a milhares de mulheres que já organizaram suas vidas com nossos planners digitais",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                }
+              }
+            },
+            {
+              "id": "cta-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Começar Agora",
+                "link": {
+                  "url": "/loja"
+                },
+                "align": "center",
+                "button_type": "default",
+                "background_color": "#FFFFFF",
+                "button_text_color": "#E89BB9",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "60",
+                  "bottom": "22",
+                  "left": "60"
+                },
+                "hover_background_color": "#2C1840",
+                "hover_color": "#FFFFFF",
+                "hover_animation": "grow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

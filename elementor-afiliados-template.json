@@ -1,0 +1,895 @@
+{
+  "version": "0.4",
+  "title": "Planner Fluxo - Programa de Afiliados",
+  "type": "page",
+  "content": [
+    {
+      "id": "afiliados-hero",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#E89BB9",
+        "background_color_b": "#F5A962",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "hero-icon",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-handshake",
+                  "library": "fa-solid"
+                },
+                "primary_color": "#FFFFFF",
+                "size": {
+                  "unit": "px",
+                  "size": 72
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "hero-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Programa de Afiliados 💰",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "hero-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Ganhe até 30% de comissão divulgando nossos planners digitais!",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                }
+              }
+            },
+            {
+              "id": "hero-button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Quero Ser Afiliada",
+                "link": {
+                  "url": "#cadastro-afiliado"
+                },
+                "align": "center",
+                "background_color": "#FFFFFF",
+                "button_text_color": "#E89BB9",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "700",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "50",
+                  "bottom": "20",
+                  "left": "50"
+                },
+                "hover_background_color": "#2C1840",
+                "hover_color": "#FFFFFF",
+                "hover_animation": "grow"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comissoes-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "comissoes-header",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "comissoes-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Estrutura de Comissões",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "comissao-1",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "comissao-1-box",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<style>\n.comissao-card {\n  background: white;\n  border: 3px solid #E89BB9;\n  border-radius: 20px;\n  padding: 40px 30px;\n  text-align: center;\n  transition: all 0.3s ease;\n}\n.comissao-card:hover {\n  transform: translateY(-10px);\n  box-shadow: 0 15px 40px rgba(232, 155, 185, 0.3);\n}\n.comissao-nivel {\n  color: #E89BB9;\n  font-size: 14px;\n  font-weight: 600;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  margin-bottom: 10px;\n}\n.comissao-percent {\n  color: #2C1840;\n  font-size: 56px;\n  font-weight: 700;\n  margin: 15px 0;\n}\n.comissao-desc {\n  color: #2C1840;\n  font-size: 16px;\n  line-height: 1.6;\n}\n</style>\n\n<div class=\"comissao-card\">\n  <p class=\"comissao-nivel\">Iniciante</p>\n  <p class=\"comissao-percent\">20%</p>\n  <p class=\"comissao-desc\">0 - 10 vendas/mês<br>Comissão sobre cada venda</p>\n</div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "comissao-2",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "comissao-2-box",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"comissao-card\" style=\"border-color: #F5A962;\">\n  <p class=\"comissao-nivel\" style=\"color: #F5A962;\">Avançada</p>\n  <p class=\"comissao-percent\">25%</p>\n  <p class=\"comissao-desc\">11 - 30 vendas/mês<br>Comissão sobre cada venda</p>\n</div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "comissao-3",
+          "elType": "column",
+          "settings": {
+            "width": "33.33"
+          },
+          "elements": [
+            {
+              "id": "comissao-3-box",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"comissao-card\" style=\"border-color: #E89BB9; background: linear-gradient(135deg, #FFF5F8, #FFFFFF);\">\n  <p class=\"comissao-nivel\">Expert</p>\n  <p class=\"comissao-percent\">30%</p>\n  <p class=\"comissao-desc\">31+ vendas/mês<br>Comissão sobre cada venda<br><strong style=\"color: #E89BB9;\">+ Bônus Exclusivos!</strong></p>\n</div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vantagens-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "vantagens-header",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "vantagens-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Por Que Ser Nossa Afiliada?",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vantagem-1",
+          "elType": "column",
+          "settings": {
+            "width": "50"
+          },
+          "elements": [
+            {
+              "id": "vantagem-1-icon",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-piggy-bank",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#E89BB9",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "title_text": "Comissões Generosas",
+                "description_text": "Ganhe de 20% a 30% em TODAS as vendas que você gerar. Quanto mais vende, mais ganha!",
+                "title_color": "#2C1840",
+                "description_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vantagem-2",
+          "elType": "column",
+          "settings": {
+            "width": "50"
+          },
+          "elements": [
+            {
+              "id": "vantagem-2-icon",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-rocket",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#F5A962",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "title_text": "Produtos de Alta Conversão",
+                "description_text": "Nossos planners têm taxa de conversão de 8-12%, muito acima da média do mercado!",
+                "title_color": "#2C1840",
+                "description_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vantagem-3",
+          "elType": "column",
+          "settings": {
+            "width": "50"
+          },
+          "elements": [
+            {
+              "id": "vantagem-3-icon",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-images",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#E89BB9",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "title_text": "Material Promocional Pronto",
+                "description_text": "Banners, posts para Instagram, stories, e-mail marketing - tudo pronto para você usar!",
+                "title_color": "#2C1840",
+                "description_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vantagem-4",
+          "elType": "column",
+          "settings": {
+            "width": "50"
+          },
+          "elements": [
+            {
+              "id": "vantagem-4-icon",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-chart-line",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#F5A962",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "title_text": "Dashboard Completo",
+                "description_text": "Acompanhe suas vendas, comissões e ganhos em tempo real através do nosso painel.",
+                "title_color": "#2C1840",
+                "description_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vantagem-5",
+          "elType": "column",
+          "settings": {
+            "width": "50"
+          },
+          "elements": [
+            {
+              "id": "vantagem-5-icon",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-calendar-check",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#E89BB9",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "title_text": "Pagamentos Mensais",
+                "description_text": "Receba suas comissões todo dia 15 de cada mês, via PIX ou transferência bancária.",
+                "title_color": "#2C1840",
+                "description_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vantagem-6",
+          "elType": "column",
+          "settings": {
+            "width": "50"
+          },
+          "elements": [
+            {
+              "id": "vantagem-6-icon",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": {
+                  "value": "fas fa-graduation-cap",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#F5A962",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "title_text": "Treinamento Gratuito",
+                "description_text": "Acesso a cursos, webinars e materiais de treinamento para maximizar suas vendas.",
+                "title_color": "#2C1840",
+                "description_color": "#2C1840"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "como-funciona-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "como-funciona-header",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "como-funciona-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Como Funciona em 4 Passos",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "passo-1",
+          "elType": "column",
+          "settings": {
+            "width": "25"
+          },
+          "elements": [
+            {
+              "id": "passo-1-numero",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "1",
+                "align": "center",
+                "title_color": "#E89BB9",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 72
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "passo-1-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Cadastre-se",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "passo-1-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Preencha o formulário abaixo e aguarde a aprovação (geralmente em 24h)",
+                "align": "center",
+                "text_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "passo-2",
+          "elType": "column",
+          "settings": {
+            "width": "25"
+          },
+          "elements": [
+            {
+              "id": "passo-2-numero",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "2",
+                "align": "center",
+                "title_color": "#F5A962",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 72
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "passo-2-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Receba seu Link",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "passo-2-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Receba seu link único de afiliada e acesso ao material promocional",
+                "align": "center",
+                "text_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "passo-3",
+          "elType": "column",
+          "settings": {
+            "width": "25"
+          },
+          "elements": [
+            {
+              "id": "passo-3-numero",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "3",
+                "align": "center",
+                "title_color": "#E89BB9",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 72
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "passo-3-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Divulgue",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "passo-3-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Compartilhe seu link nas redes sociais, blog, YouTube, e-mail, etc",
+                "align": "center",
+                "text_color": "#2C1840"
+              }
+            }
+          ]
+        },
+        {
+          "id": "passo-4",
+          "elType": "column",
+          "settings": {
+            "width": "25"
+          },
+          "elements": [
+            {
+              "id": "passo-4-numero",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "4",
+                "align": "center",
+                "title_color": "#F5A962",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 72
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "passo-4-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Receba!",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "passo-4-text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Receba suas comissões todo dia 15 via PIX ou transferência",
+                "align": "center",
+                "text_color": "#2C1840"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cadastro-afiliado-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFF5F8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        },
+        "html_tag": "section",
+        "custom_attributes": "id|cadastro-afiliado"
+      },
+      "elements": [
+        {
+          "id": "cadastro-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "cadastro-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quero Ser Afiliada! 🚀",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "cadastro-subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Preencha o formulário e comece a ganhar comissões em até 24 horas!",
+                "align": "center",
+                "text_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                }
+              }
+            },
+            {
+              "id": "cadastro-form",
+              "elType": "widget",
+              "widgetType": "form",
+              "settings": {
+                "form_name": "Cadastro Afiliadas",
+                "form_fields": [
+                  {
+                    "field_type": "text",
+                    "field_label": "Nome Completo",
+                    "placeholder": "Seu nome completo",
+                    "required": "true",
+                    "width": "50"
+                  },
+                  {
+                    "field_type": "email",
+                    "field_label": "E-mail",
+                    "placeholder": "seu@email.com",
+                    "required": "true",
+                    "width": "50"
+                  },
+                  {
+                    "field_type": "tel",
+                    "field_label": "WhatsApp",
+                    "placeholder": "(00) 00000-0000",
+                    "required": "true",
+                    "width": "50"
+                  },
+                  {
+                    "field_type": "text",
+                    "field_label": "Instagram",
+                    "placeholder": "@seuinstagram",
+                    "required": "false",
+                    "width": "50"
+                  },
+                  {
+                    "field_type": "text",
+                    "field_label": "Site/Blog (se tiver)",
+                    "placeholder": "https://seublog.com.br",
+                    "required": "false",
+                    "width": "100"
+                  },
+                  {
+                    "field_type": "textarea",
+                    "field_label": "Como pretende divulgar?",
+                    "placeholder": "Conte-nos como planeja divulgar nossos produtos (Instagram, YouTube, blog, etc)",
+                    "required": "true",
+                    "rows": 4,
+                    "width": "100"
+                  },
+                  {
+                    "field_type": "acceptance",
+                    "field_label": "Li e aceito os termos do programa de afiliados",
+                    "required": "true",
+                    "width": "100"
+                  }
+                ],
+                "button_text": "Enviar Cadastro",
+                "button_size": "lg",
+                "button_align": "center",
+                "success_message": "🎉 Cadastro enviado com sucesso! Analisaremos sua solicitação e retornaremos em até 24h.",
+                "error_message": "Ops! Algo deu errado. Tente novamente.",
+                "email_to": "afiliados@plannerfluxo.com.br",
+                "email_subject": "Novo cadastro de afiliada",
+                "button_background_color": "#E89BB9",
+                "button_text_color": "#FFFFFF",
+                "button_hover_background_color": "#F5A962",
+                "field_border_color": "#E89BB9",
+                "field_focus_border_color": "#F5A962",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq-afiliados",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "faq-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "faq-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Dúvidas Frequentes",
+                "align": "center",
+                "title_color": "#2C1840",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "faq-accordion",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "Preciso ter CNPJ para ser afiliada?",
+                    "tab_content": "Não! Você pode se cadastrar como pessoa física. Caso tenha CNPJ, também aceitamos."
+                  },
+                  {
+                    "tab_title": "Qual o valor mínimo para saque?",
+                    "tab_content": "O valor mínimo para saque é de R$ 50,00. Se não atingir o mínimo no mês, o valor acumula para o mês seguinte."
+                  },
+                  {
+                    "tab_title": "Posso divulgar em qualquer canal?",
+                    "tab_content": "Sim! Instagram, YouTube, blog, e-mail, grupos de WhatsApp, TikTok - todos os canais são permitidos, desde que sigam nossas diretrizes de divulgação."
+                  },
+                  {
+                    "tab_title": "Como acompanho minhas vendas?",
+                    "tab_content": "Você terá acesso a um dashboard completo onde pode acompanhar cliques, vendas, comissões e histórico em tempo real."
+                  },
+                  {
+                    "tab_title": "Quanto tempo leva para aprovar meu cadastro?",
+                    "tab_content": "Geralmente aprovamos em até 24 horas úteis. Você receberá um e-mail com seu link e credenciais de acesso."
+                  }
+                ],
+                "title_color": "#2C1840",
+                "tab_active_color": "#E89BB9",
+                "icon_color": "#E89BB9",
+                "content_color": "#2C1840",
+                "border_color": "#E89BB9"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "footer-1": {
+    "text-1": {
+      "title": "",
+      "text": "<div class=\"footer-logo\"><img src=\"URL_DA_SUA_LOGO\" alt=\"Planner Fluxo\" style=\"height: 160px; margin-bottom: 0;\"><\/div><p style=\"margin-top: 0;\">Transforme sua rotina com planners digitais elegantes e funcionais. Organização com estilo para mulheres que querem mais!<\/p><div class=\"footer-social\"><a href=\"https:\/\/instagram.com\/plannerfluxo\" target=\"_blank\" title=\"Instagram\"><i class=\"fab fa-instagram\"><\/i><\/a><a href=\"https:\/\/facebook.com\/plannerfluxo\" target=\"_blank\" title=\"Facebook\"><i class=\"fab fa-facebook-f\"><\/i><\/a><a href=\"https:\/\/pinterest.com\/plannerfluxo\" target=\"_blank\" title=\"Pinterest\"><i class=\"fab fa-pinterest-p\"><\/i><\/a><a href=\"https:\/\/wa.me\/5511999999999\" target=\"_blank\" title=\"WhatsApp\"><i class=\"fab fa-whatsapp\"><\/i><\/a><\/div>",
+      "filter": false
+    }
+  },
+  "footer-2": {
+    "nav_menu-1": {
+      "title": "Links Rápidos",
+      "nav_menu": 2
+    }
+  },
+  "footer-3": {
+    "nav_menu-2": {
+      "title": "Institucional",
+      "nav_menu": 3
+    }
+  },
+  "footer-4": {
+    "text-2": {
+      "title": "Fale Conosco",
+      "text": "<p><i class=\"fas fa-envelope\"><\/i> <a href=\"mailto:contato@plannerfluxo.com.br\" style=\"color: white;\">contato@plannerfluxo.com.br<\/a><\/p><p><i class=\"fab fa-whatsapp\"><\/i> <a href=\"https:\/\/wa.me\/5511999999999\" target=\"_blank\" style=\"color: white;\">(11) 99999-9999<\/a><\/p><p><i class=\"fab fa-instagram\"><\/i> <a href=\"https:\/\/instagram.com\/plannerfluxo\" target=\"_blank\" style=\"color: white;\">@plannerfluxo<\/a><\/p><p><i class=\"fas fa-clock\"><\/i> Seg-Sex: 9h às 18h<\/p>",
+      "filter": false
+    }
+  }
+}

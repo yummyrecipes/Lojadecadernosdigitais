@@ -1,0 +1,116 @@
+{
+  "version": "0.4",
+  "title": "Planner Fluxo - Header",
+  "type": "header",
+  "content": [
+    {
+      "id": "header-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "2",
+          "left": "0"
+        },
+        "border_color": "#E89BB9",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "40",
+          "bottom": "20",
+          "left": "40"
+        },
+        "stretch_section": "section-stretched",
+        "position": "fixed",
+        "z_index": "999"
+      },
+      "elements": [
+        {
+          "id": "header-inner",
+          "elType": "column",
+          "settings": {
+            "width": "100",
+            "content_position": "middle"
+          },
+          "elements": [
+            {
+              "id": "header-container",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "no",
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "logo-column",
+                  "elType": "column",
+                  "settings": {
+                    "width": "25",
+                    "width_tablet": "30",
+                    "width_mobile": "50"
+                  },
+                  "elements": [
+                    {
+                      "id": "logo-image",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "URL_DA_SUA_LOGO_AQUI.png"
+                        },
+                        "image_size": "full",
+                        "width": {
+                          "unit": "px",
+                          "size": "150"
+                        },
+                        "width_tablet": {
+                          "unit": "px",
+                          "size": "120"
+                        },
+                        "width_mobile": {
+                          "unit": "px",
+                          "size": "100"
+                        },
+                        "align": "left",
+                        "link": {
+                          "url": "/",
+                          "is_external": false
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "menu-column",
+                  "elType": "column",
+                  "settings": {
+                    "width": "75",
+                    "width_tablet": "70",
+                    "width_mobile": "50",
+                    "content_position": "middle"
+                  },
+                  "elements": [
+                    {
+                      "id": "menu-html",
+                      "elType": "widget",
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<style>\n.planner-menu {\n  display: flex;\n  justify-content: flex-end;\n  align-items: center;\n  gap: 35px;\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n.planner-menu li {\n  margin: 0;\n  padding: 0;\n}\n.planner-menu a {\n  color: #2C1840;\n  text-decoration: none;\n  font-weight: 600;\n  font-size: 16px;\n  transition: all 0.3s ease;\n  position: relative;\n}\n.planner-menu a:hover {\n  color: #E89BB9;\n}\n.planner-menu a::after {\n  content: '';\n  position: absolute;\n  bottom: -5px;\n  left: 0;\n  width: 0;\n  height: 2px;\n  background: #F5A962;\n  transition: width 0.3s ease;\n}\n.planner-menu a:hover::after {\n  width: 100%;\n}\n.planner-menu-toggle {\n  display: none;\n  background: #E89BB9;\n  border: none;\n  padding: 10px 15px;\n  border-radius: 5px;\n  cursor: pointer;\n  float: right;\n}\n.planner-menu-toggle span {\n  display: block;\n  width: 25px;\n  height: 3px;\n  background: white;\n  margin: 5px 0;\n  border-radius: 2px;\n}\n@media (max-width: 768px) {\n  .planner-menu {\n    display: none;\n    flex-direction: column;\n    position: absolute;\n    top: 100%;\n    right: 0;\n    background: white;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n    padding: 20px;\n    border-radius: 10px;\n    min-width: 200px;\n    z-index: 1000;\n  }\n  .planner-menu.active {\n    display: flex;\n  }\n  .planner-menu-toggle {\n    display: block;\n  }\n  .planner-menu a::after {\n    display: none;\n  }\n}\n</style>\n\n<button class=\"planner-menu-toggle\" onclick=\"toggleMenu()\">\n  <span></span>\n  <span></span>\n  <span></span>\n</button>\n\n<ul class=\"planner-menu\" id=\"plannerMenu\">\n  <li><a href=\"/#como-funciona\">Como Funciona</a></li>\n  <li><a href=\"/#relatos\">Relatos</a></li>\n  <li><a href=\"/#duvidas\">Dúvidas</a></li>\n  <li><a href=\"/loja\">Loja</a></li>\n  <li><a href=\"/quem-somos\">Quem Somos</a></li>\n  <li><a href=\"/blog\">Blog</a></li>\n  <li><a href=\"/contato\">Contato</a></li>\n</ul>\n\n<script>\nfunction toggleMenu() {\n  var menu = document.getElementById('plannerMenu');\n  menu.classList.toggle('active');\n}\n\n// Fechar menu ao clicar em um link\ndocument.querySelectorAll('.planner-menu a').forEach(function(link) {\n  link.addEventListener('click', function() {\n    var menu = document.getElementById('plannerMenu');\n    menu.classList.remove('active');\n  });\n});\n\n// Smooth scroll para links âncora\ndocument.querySelectorAll('a[href^=\"/#\"]').forEach(anchor => {\n  anchor.addEventListener('click', function (e) {\n    e.preventDefault();\n    const target = this.getAttribute('href').substring(2);\n    const element = document.getElementById(target);\n    if (element) {\n      element.scrollIntoView({\n        behavior: 'smooth',\n        block: 'start'\n      });\n    }\n  });\n});\n</script>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

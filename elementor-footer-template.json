@@ -1,0 +1,256 @@
+{
+  "version": "0.4",
+  "title": "Planner Fluxo - Footer",
+  "type": "footer",
+  "content": [
+    {
+      "id": "footer-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#E89BB9",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-col-1",
+          "elType": "column",
+          "settings": {
+            "width": "25",
+            "width_tablet": "50",
+            "width_mobile": "100"
+          },
+          "elements": [
+            {
+              "id": "footer-logo",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "URL_DA_SUA_LOGO_AQUI.png"
+                },
+                "image_size": "full",
+                "width": {
+                  "unit": "px",
+                  "size": "160"
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": "120"
+                },
+                "align": "left",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                }
+              }
+            },
+            {
+              "id": "footer-description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Transforme sua rotina com planners digitais elegantes e funcionais. Organização com estilo para mulheres que querem mais!",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0"
+                }
+              }
+            },
+            {
+              "id": "footer-social",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<style>\n.footer-social {\n  display: flex;\n  gap: 15px;\n  margin-top: 0;\n}\n.footer-social a {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  width: 40px;\n  height: 40px;\n  background: white;\n  border-radius: 50%;\n  color: #E89BB9;\n  font-size: 18px;\n  transition: all 0.3s ease;\n  text-decoration: none;\n}\n.footer-social a:hover {\n  background: #F5A962;\n  color: white;\n  transform: translateY(-3px);\n}\n</style>\n\n<div class=\"footer-social\">\n  <a href=\"https://instagram.com/plannerfluxo\" target=\"_blank\" title=\"Instagram\">\n    <i class=\"fab fa-instagram\"></i>\n  </a>\n  <a href=\"https://facebook.com/plannerfluxo\" target=\"_blank\" title=\"Facebook\">\n    <i class=\"fab fa-facebook-f\"></i>\n  </a>\n  <a href=\"https://pinterest.com/plannerfluxo\" target=\"_blank\" title=\"Pinterest\">\n    <i class=\"fab fa-pinterest-p\"></i>\n  </a>\n  <a href=\"https://wa.me/5511999999999\" target=\"_blank\" title=\"WhatsApp\">\n    <i class=\"fab fa-whatsapp\"></i>\n  </a>\n</div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "footer-col-2",
+          "elType": "column",
+          "settings": {
+            "width": "25",
+            "width_tablet": "50",
+            "width_mobile": "100"
+          },
+          "elements": [
+            {
+              "id": "footer-menu-1-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Links Rápidos",
+                "header_size": "h4",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_weight": "700",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0"
+                }
+              }
+            },
+            {
+              "id": "footer-menu-1",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<style>\n.footer-menu {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n.footer-menu li {\n  margin-bottom: 12px;\n}\n.footer-menu a {\n  color: white;\n  text-decoration: none;\n  font-size: 14px;\n  transition: all 0.3s ease;\n  display: inline-block;\n}\n.footer-menu a:hover {\n  color: #F5A962;\n  padding-left: 5px;\n}\n</style>\n\n<ul class=\"footer-menu\">\n  <li><a href=\"/\">Início</a></li>\n  <li><a href=\"/loja\">Loja</a></li>\n  <li><a href=\"/clube-freebies\">Clube de Freebies</a></li>\n  <li><a href=\"/afiliados\">Programa de Afiliados</a></li>\n  <li><a href=\"/blog\">Blog</a></li>\n</ul>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "footer-col-3",
+          "elType": "column",
+          "settings": {
+            "width": "25",
+            "width_tablet": "50",
+            "width_mobile": "100"
+          },
+          "elements": [
+            {
+              "id": "footer-menu-2-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Institucional",
+                "header_size": "h4",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_weight": "700",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0"
+                }
+              }
+            },
+            {
+              "id": "footer-menu-2",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<ul class=\"footer-menu\">\n  <li><a href=\"/quem-somos\">Quem Somos</a></li>\n  <li><a href=\"/contato\">Contato</a></li>\n  <li><a href=\"/#duvidas\">Dúvidas Frequentes</a></li>\n  <li><a href=\"/politica-privacidade\">Política de Privacidade</a></li>\n  <li><a href=\"/termos-uso\">Termos de Uso</a></li>\n</ul>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "footer-col-4",
+          "elType": "column",
+          "settings": {
+            "width": "25",
+            "width_tablet": "50",
+            "width_mobile": "100"
+          },
+          "elements": [
+            {
+              "id": "footer-contato-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Fale Conosco",
+                "header_size": "h4",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_weight": "700",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0"
+                }
+              }
+            },
+            {
+              "id": "footer-contato",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<style>\n.footer-contact {\n  color: white;\n  font-size: 14px;\n  line-height: 1.8;\n}\n.footer-contact p {\n  margin-bottom: 12px;\n  display: flex;\n  align-items: flex-start;\n  gap: 10px;\n}\n.footer-contact i {\n  color: #F5A962;\n  margin-top: 3px;\n  font-size: 16px;\n}\n.footer-contact a {\n  color: white;\n  text-decoration: none;\n  transition: color 0.3s ease;\n}\n.footer-contact a:hover {\n  color: #F5A962;\n}\n</style>\n\n<div class=\"footer-contact\">\n  <p>\n    <i class=\"fas fa-envelope\"></i>\n    <a href=\"mailto:contato@plannerfluxo.com.br\">contato@plannerfluxo.com.br</a>\n  </p>\n  <p>\n    <i class=\"fab fa-whatsapp\"></i>\n    <a href=\"https://wa.me/5511999999999\" target=\"_blank\">(11) 99999-9999</a>\n  </p>\n  <p>\n    <i class=\"fab fa-instagram\"></i>\n    <a href=\"https://instagram.com/plannerfluxo\" target=\"_blank\">@plannerfluxo</a>\n  </p>\n  <p>\n    <i class=\"fas fa-clock\"></i>\n    Seg-Sex: 9h às 18h\n  </p>\n</div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer-bottom",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2C1840",
+        "padding": {
+          "unit": "px",
+          "top": "25",
+          "right": "40",
+          "bottom": "25",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "footer-bottom-column",
+          "elType": "column",
+          "settings": {
+            "width": "100"
+          },
+          "elements": [
+            {
+              "id": "footer-copyright",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"margin: 0; color: white; font-size: 14px; text-align: center;\">© 2026 <strong>Planner Fluxo</strong>. Todos os direitos reservados. | Desenvolvido com 💖 para mulheres que querem organização com estilo.</p>",
+                "text_color": "#FFFFFF"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
